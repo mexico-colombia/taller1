@@ -16,15 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Conversor_moneda" />
-        <activity android:name=".Conversor_unidades" />
-        <activity android:name=".Traductor" />
-        <activity android:name=".Calendario" />
-        <activity android:name=".Paint" />
-        <activity android:name=".Calculadora" />
-        <activity android:name=".Contacto" />
-        <activity android:name=".Parabola" />
-        <activity android:name=".Recta" />
         <activity
             android:name=".Reloj"
             android:label="@string/title_activity_reloj"
@@ -49,9 +40,6 @@
             android:name=".Reloj_Mundial"
             android:label="@string/title_activity_reloj__mundial"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Dibujo" />
-        <activity android:name=".Notas" />
-        <activity android:name=".Nota"></activity>
     </application>
 
 </manifest>

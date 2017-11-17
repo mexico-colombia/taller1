@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+/*
         contacto = (ImageButton)findViewById(R.id.imageButton2);
         contacto.setOnClickListener(this);
         calendario = (ImageButton)findViewById(R.id.imageButton);
@@ -32,12 +32,13 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         calculadora = (ImageButton)findViewById(R.id.imageButton6);
         calculadora.setOnClickListener(this);
         paint = (ImageButton)findViewById(R.id.imageButton7);
-        paint.setOnClickListener(this);
-        reloj = (ImageButton)findViewById(R.id.imageButton8);
+        paint.setOnClickListener(this);  */
+        reloj = (ImageButton)findViewById(R.id.btnreloj);
         reloj.setOnClickListener(this);
+        /*
         notas = (ImageButton)findViewById(R.id.imageButton9);
         notas.setOnClickListener(this);
-
+*/
 
     }
 
@@ -51,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
         try {
         switch (select) {
-
+/*
             case R.id.imageButton:
                 Intent v2 = new Intent(this,Calendario.class);
                 text="Calendario";
@@ -87,17 +88,19 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                 text="Paint";
                 startActivity(v7);
                 break;
-            case R.id.imageButton8:
+                */
+            case R.id.btnreloj:
                 Intent v8 = new Intent(this,Reloj.class);
-                text="Reloj";
+                text="Alarma";
                 startActivity(v8);
                 break;
+                /*
             case R.id.imageButton9:
                 Intent v9 = new Intent(this,Notas.class);
                 text="Notas";
                 startActivity(v9);
                 break;
-
+*/
         }
 
         } catch  (Exception e) {
